@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+body{
+  font-family: "Roboto";
+}
+
+p{
+  margin: 24px 0;
+  line-height: 2;
+}
+
+.wrapper{
+  padding: 32px;
+}
+
+.cookie-container{
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: rgba(81, 114, 197, 0.841);
+  padding: 0 32 px;
+  box-shadow: 0 -2px 16px rgb(18, 19, 19);
+  transition: 200ms;
+}
+
+.cookie-container.active{
+  bottom: 0;
+}
+
+.cookie-container a{
+  color: #f5f6fa;
+
+}
+
+.cookie-btn{
+  background: white;
+  border: 0;
+  color: #0e0f13;
+  padding: 12 px 68px;
+  font-size: 18px;
+  cursor: pointer;
+}
